@@ -195,7 +195,7 @@ transition: transform .5s ease;}
 @media (max-width: 496px){
 .formulario div{width:100%}
 #topo{width:100%}
-.logo {width:100%}
+.logo div{width:100%}
 .body{width: 100%}
 .info div{width: 100%}
 .produtospromo div{width:100%}
