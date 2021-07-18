@@ -33,7 +33,7 @@ form.addEventListener("submit", (e) => {
             if (count>0){
                 timeout();
             } else {
-                window.location.href = 
+                window.location.href = "https://landig-page-pricehero.netlify.app/"
             }
         }, 1000);
     }
