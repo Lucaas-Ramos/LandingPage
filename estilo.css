@@ -193,7 +193,8 @@ transition: transform .5s ease;}
 }
 
 @media (max-width: 496px){
-.formulario div{width:100%}
+#email{width:100%}
+#nome{width:100%}
 #topo{width:100%}
 .logo div{width:100%}
 .body{width: 100%}
