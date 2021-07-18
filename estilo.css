@@ -1,0 +1,207 @@
+body{margin: 0px;
+    font-family: 'Roboto Slab', sans-serif;
+    padding:0px
+
+}
+#topo{
+    background: url('imagens/heroes.jpg') no-repeat center top ;
+    padding-bottom: 40px;
+    background-size: cover;
+    height: 70vh;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.logo img{
+    max-width: 400px;
+    width: 80%;
+    margin: 20px;
+    display: block;
+    border-radius: 80px;
+}
+
+.formulario div{
+    float: right;
+    width: -10%;
+    box-sizing:border-box;
+    padding: 0 15px;
+    text-align: center;
+
+}
+.logo h1{ 
+    color:rgb(78, 181, 225);
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: -105px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgb(0 0 0 / 44%);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgb(0 0 0 / 44%);
+    background-color: rgb(27, 60, 90);
+    margin-left: 120px;
+    padding: 1px;
+    
+    
+}
+.promocoes h3{ font-size: 25px;
+    color: rgb(231, 231, 13);
+    font-weight: bold;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgb(0 0 0 / 44%);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgb(0 0 0 / 44%);
+    margin-top: 260px;
+}
+
+.cadastro h2{
+    color: rgb(26, 26, 61);   
+}
+
+.formulario{
+    background:rgb(30, 130, 161);
+    border:rgb(13, 40, 97) solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden  
+}
+.formulario input[type="email"]{
+    outline-style: none;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 3px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+    float:left;
+    margin-left: 15px;
+    
+}
+.formulario div{
+    display: block;
+    float: left;
+}
+.formulario input[type="text"]{
+    outline-style: none;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 3px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+    float: left;
+}
+
+.formulario label{display: block}
+.formulario input[type="submit"]{
+    width: 20%;
+    margin: 20px 10px ;
+    display: block;
+    background:rgb(26, 26, 61);
+    border:0;
+    padding: 10px 0;
+    border-radius: 200px;
+    color:mintcream;
+    margin-left: 0px;
+    margin-right: 20px
+
+
+}
+.aceite{font-size: 12px; color:rgb(26, 26, 61); font-weight:bold}
+.aceite{
+    text-align:center;  
+    display: inline;
+    float: left;  
+}
+
+#meio{
+    background: rgb(36, 35, 35);
+    padding: 20px 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgb(0 0 0 / 44%);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgb(0 0 0 / 44%);
+}
+
+#baixo{
+    background: rgb(36, 35, 35);
+    padding: 20px 0;
+    border-top: 2px solid #000;   
+}
+
+.info{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px;
+    color:rgb(27, 78, 126);
+    text-align:center
+}
+
+.cadastro h2{
+    text-align: center;
+    margin-bottom: 20px;     
+}
+
+.produtospromo div{width: 33%; display: inline-block}
+.produtospromo{overflow: hidden;}
+.produtospromo img{display:list-item; margin:auto; width: 120px; object-fit: fill; padding: 20px 0}
+
+.produtospromo p{text-align: center; color: #fff;}
+
+#test{position:relative}
+#test:hover{
+overflow: hidden;
+-webkit-transform: scale(1.1);
+transform: scale (1.1);
+-webkit-transition: -webkit-transform .5s ease;
+transition: transform .5s ease;}
+
+.final{
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.copyright {
+    color: white;
+    margin-bottom: 20px}
+
+.figura-logo{
+    width: 12%;
+    margin-top: 20px;
+    border-radius: 18px;
+    margin-bottom: 0;
+    
+}
+
+.msg-cadastro {
+    padding-top: 35px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    display: none;
+}
+
+@media (max-width: 496px){
+.formulario div{width:100%}
+#topo{width:100%}
+.logo {width:100%}
+.body{width: 100%}
+.info div{width: 100%}
+.produtospromo div{width:100%}
+.cadastro div{width:100%}
+.aceite label{width:100%}
+.email input{width:100%}
+
+}
+
