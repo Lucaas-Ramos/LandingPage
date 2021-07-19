@@ -191,10 +191,10 @@ transition: transform .5s ease;}
 .info div{width: 100%}
 .produtospromo div{width:100%}
 .formulario div{width:100%; margin-left:-5px}
-.aceite {width:100%; margin-bottom:-140px; margin-left:-150px}
-.formulario input[type="text"]{width:100%;display: inline-block; margin-left: -40px; margin-bottom: 100px}
-.formulario input[type="email"]{width:100%; margin-left: -150px}
-.copyright{width:100%; margin-left:10px; margin-right:10px}
+.aceite {width:100%; margin-bottom:-140px; margin-left:-170px}
+.formulario input[type="text"]{width:100%;display: inline-block; margin-bottom: 100px}
+.formulario input[type="email"]{width:100%; margin-left: -160px}
+.copyright{width:90%; margin-left:10px; text-align: center}
 .formulario input[type="submit"]{margin-bottom: -120px; width: 50%}
 
 }
