@@ -194,7 +194,6 @@ transition: transform .5s ease;}
 @media (max-width:496px){
 .logo h1{display: inline-block; width:100px}
 #topo{width:100%}
-.logo img{width:100%}
 .body{width: 100%}
 .info div{width: 100%}
 .produtospromo div{width:100%}
