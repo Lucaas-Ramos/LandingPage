@@ -183,14 +183,6 @@ transition: transform .5s ease;}
     
 }
 
-.msg-cadastro {
-    padding-top: 35px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    color: #fff;
-    display: none;
-}
 
 @media (max-width:1245px){
 .logo h1{display: inline-block; width:100%;  margin-left: 0px;font-size:20px}
