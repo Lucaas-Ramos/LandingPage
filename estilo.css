@@ -192,7 +192,7 @@ transition: transform .5s ease;}
 }
 
 @media (max-width:496px){
-.h1 div{width:100px;  margin-top:0px; margin-lef:0px}
+.logo h1{width:100px;  margin-top:0px; margin-lef:0px}
 #topo{width:100%}
 .logo div{width:100%}
 .body{width: 100%}
