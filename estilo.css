@@ -192,8 +192,8 @@ transition: transform .5s ease;}
 .produtospromo div{width:100%}
 .cadastro h2{width:100%}
 .aceite {width:100%}
-.formulario input[type="text"]{width:100%}
-.formulario input[type="email"]{width:100%; display: inline-block; margin-left: -150px; margin-bottom: 100px}
+.formulario input[type="text"]{width:100%;display: inline-block; margin-left: -150px; margin-bottom: 100px}
+.formulario input[type="email"]{width:100%;}
 .copyright{width:100%; margin-left:10px; margin-right:10px}
 
 }
