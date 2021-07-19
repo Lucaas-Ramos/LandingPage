@@ -192,7 +192,7 @@ transition: transform .5s ease;}
     display: none;
 }
 
-@media (max-width:496px){
+@media (max-width:1245px){
 .logo h1{display: inline-block; width:100%;  margin-left: 0px;font-size:20px}
 #topo{width:100%}
 .body{width: 100%}
