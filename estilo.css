@@ -192,7 +192,7 @@ transition: transform .5s ease;}
     display: none;
 }
 
-@media (max-width: 496px){
+@media screen and (max-width: 900px){
 .h1 div{width:100%}
 #topo{width:100%}
 .logo div{width:100%}
