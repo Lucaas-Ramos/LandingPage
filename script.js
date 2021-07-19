@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
     const arrayName = nome.split(" ");
 
     content.innerHTML = `<p align="center"><h2>Muito obrigado, ${arrayName[0]}! Seu email foi registrado com sucesso! :) ----</h2></p><br><br>
-    <p align=""><h3>Você será redirecionado para o inicio da página em <span id="tempo">10</span> segundos.</h3></p>
+    <p align=""><h3>Você será redirecionado para o início da página em <span id="tempo">10</span> segundos!</h3></p>
     `;
 
     let tempo = document.getElementById("tempo");
