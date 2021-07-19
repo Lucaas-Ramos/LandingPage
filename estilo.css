@@ -190,11 +190,12 @@ transition: transform .5s ease;}
 .body{width: 100%}
 .info div{width: 100%}
 .produtospromo div{width:100%}
-.cadastro h2{width:100%}
-.aceite {width:100%}
-.formulario input[type="text"]{width:100%;display: inline-block; margin-left: -150px; margin-bottom: 100px}
-.formulario input[type="email"]{width:100%;}
+.cadastro h2{width:100%; margin-left:-30px}
+.aceite {width:100%; margin-bottom:-140px; margin-left:-150px}
+.formulario input[type="text"]{width:100%;display: inline-block; margin-left: -40px; margin-bottom: 100px}
+.formulario input[type="email"]{width:100%; margin-left: -150px}
 .copyright{width:100%; margin-left:10px; margin-right:10px}
+.formulario input[type="submit"]{margin-bottom: -120px; width: 50%}
 
 }
 
