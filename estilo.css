@@ -193,7 +193,7 @@ transition: transform .5s ease;}
 }
 
 @media screen and (max-device-width:900px){
-.h1 div{width:100%}
+.h1 div{width:496px}
 #topo{width:100%}
 .logo div{width:100%}
 .body{width: 100%}
