@@ -30,6 +30,7 @@ body{margin: 0px;
 }
 .logo h1{ 
     color:rgb(78, 181, 225);
+    font-size: 32px;
     text-align: center;
     font-weight: bold;
     margin-top: -105px;
