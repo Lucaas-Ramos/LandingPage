@@ -191,8 +191,8 @@ transition: transform .5s ease;}
     display: none;
 }
 
-@media screen and (max-width:296px){
-.h1 div{width:100px}
+@media screen and (max-width:496px){
+.h1 div{width:100px; text-align: right}
 #topo{width:100%}
 .logo div{width:100%}
 .body{width: 100%}
