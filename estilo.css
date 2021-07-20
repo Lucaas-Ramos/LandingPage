@@ -190,6 +190,7 @@ transition: transform .5s ease;}
 .body{width: 100%}
 .info div{width: 100%}
 .produtospromo div{width:100%}
+.promocoes h3{margin-top:180px}
 .formulario div{width:100%; margin-left:-5px}
 .aceite {width:100%; margin-bottom:-140px; margin-left:-170px}
 .formulario input[type="text"]{width:100%;display: inline-block; margin-bottom: 100px}
